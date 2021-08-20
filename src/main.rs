@@ -1,8 +1,3 @@
-#[macro_use] extern crate rocket;
+fn main() {
 
-mod routes;
-
-#[launch]
-fn rocket() -> _ {
-    rocket::build().mount("/", routes![routes::index])
 }
